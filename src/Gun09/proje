@@ -1,0 +1,19 @@
+PROJE – 5
+Bu projede http://automationpractice.com'u test ediyoruz.
+➢ Test etmeniz gereken 2 işlev vardır.
+➢ Bu 2 işlevi TestNG (POM lu) ve Java ile test edin.
+➢ Mümkün olduğu kadar "wait" beklemeyi kullanın!
+Thread.sleep'i kullanmamaya çalışın. (Bu site için çok beklemeniz gerekecek! )
+DİKKATLİ OLUN :)
+➢ Ön Koşul: Otomasyona başlamadan önce sayfada bir hesap oluşturun ve otomasyon için
+bu hesabı kullanın.
+SENARYO 1 | Contact Us sayfasını test edin:
+➢ Contact Us sayfasına gitmeli,formu doldurmalı ve göndermelisiniz. İşlemin sonunda
+başarı mesajını doğrulamanız gerekir!
+➢ Bu senaryoyu en az 3 farklı veri kullanarak test etmelisiniz (Data Provider kullanın)
+SENARYO 2 | Sepete Ürün ekleme ve Ödeme:
+➢ Ana Sayfadan bir ürün seçip sepete eklemelisiniz.
+➢ Ödeme işlemine devam etmeli ve ödemeyi yapmalısınız.
+➢ Sonunda başarı mesajını doğrulamanız gerekir!
+➢ Ayrıca sonunda sipariş numarasını (order referance) göreceksiniz, bu numarayı
+ “My Orders” sayfasından doğrulamalısınız.

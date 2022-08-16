@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite 1" parallel="tests" thread-count="2"><!--Paralel test ekliyoruz-->
+
+    <test name="Test 1">
+        <parameter name="drivers" value="chrome"></parameter>
+        <classes>
+            <class name="Gun10Tekrarlar._01_Tekrar.zDenemeTesti"></class>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <parameter name="drivers" value="firefox"></parameter>
+        <classes>
+            <class name="Gun10Tekrarlar._01_Tekrar.zDenemeTesti"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+    <test name="Test 1">
+
+       <!--hangi Gruplar calistirilacak -->
+       <!--hangi Gruplar haric tutulacak -->
+       <groups>
+
+           <run>
+               <exclude name="SmokeTest"></exclude>
+           </run>
+
+       </groups>
+
+        <!--calisacak classlarin yazildigi bolum -->
+        <classes>
+            <class name="Gun05._01_Groups"></class>
+        </classes>
+
+    </test>
+</suite>

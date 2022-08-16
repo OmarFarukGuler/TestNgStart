@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All tests" >      <!-- parallel="tests" thread-count="2"-->
+    <test  name="Test 1">
+        <parameter name="driver" value="chrome"></parameter>
+
+        <classes>
+            <class
+                    name="Gun10Tekrarlar._05_Tekrar5.TestClassDeneme">
+        </class>
+        </classes>
+    </test>
+
+    <test  name="Test 2">
+    <parameter name="driver" value="firefox"></parameter>
+    <classes>
+        <class name="Gun10Tekrarlar._05_Tekrar5.TestClassDeneme">
+        </class>
+    </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="SmokesTests">
+           <groups>
+                <run>
+                    <include name="Smoke"></include>
+                    <include name="Regression"></include>
+                </run>
+
+           </groups>
+        <classes>
+            <class name="Gun10Tekrarlar._03_TekrarGrupTest.smokeAndRegresionTests">
+        </class>
+        </classes>
+    </test>
+</suite>

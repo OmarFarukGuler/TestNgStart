@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/omarf/IdeaProjects/TestNg/src/Gun01">
+        <classes><class name="Gun01._01_Giris">
+            <methods><include name="webSitesiniAc"/>
+                <include name="LoginTestIsleminiYap"/>
+                <include name="driveriKapat"/></methods>
+        </class><class name="Gun01._02_Annotations">
+            <methods><include name="beforeClass"/>
+                <include name="Tesr1"/>
+                <include name="Test2"/>
+            </methods></class>
+            <class name="Gun01._03_Assertions"><methods>
+                <include name="EqualOrnek"/>
+                <include name="NotEqualOrnek"/>
+                <include name="TrueOrnek"/>
+                <include name="NullOrnek"/>
+                <include name="direktFail"/>
+            </methods></class><class name="Gun01._04_Enable">
+                <methods><include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods></class>
+        </classes>
+    </test>
+
+</suite>

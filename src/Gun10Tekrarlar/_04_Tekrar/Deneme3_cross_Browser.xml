@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1" >
+    <test name="Test 1">
+       <parameter name="driver" value="chrome"></parameter>
+        <classes>
+            <class name="Gun10Tekrarlar._04_Tekrar.testDeneme3">
+        </class>
+        </classes>
+    </test>
+
+    <test name="Test 2">
+        <parameter name="driver" value="firefox"></parameter>
+        <classes>
+            <class name="Gun10Tekrarlar._04_Tekrar.testDeneme3">
+            </class>
+        </classes>
+    </test>
+
+</suite>

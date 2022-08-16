@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="1">
+    <test name="Test 1">
+       <!-- <parameter name="dataprovider" value="mac"></parameter>-->
+        <parameter name="addWish" value="ipod"></parameter>
+
+        <classes>
+            <class name="Gun08._01_Soru"></class>
+        </classes>
+    </test>
+
+</suite>
+
